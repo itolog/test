@@ -9,9 +9,9 @@ function App() {
 <div>
 
     <BrowserRouter>
-        <Link to={"/"}>1</Link>
+        <Link to={"/"}>MAIN</Link>
         <br/>
-        <Link to={"/step-2"}>2</Link>
+        <Link to={"/step-2"}>SECOND</Link>
         <Routes>
             <Route index element={<StepOne />} />
             <Route path="step-2" element={<StepTwo />} />
